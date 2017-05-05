@@ -4,15 +4,16 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    background: #999999;
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #000000;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #000000;
     text-shadow: none;
 }
 
@@ -20,7 +21,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #000;
     margin: 1em 0;
     padding: 0;
 }
@@ -46,7 +47,7 @@ textarea {
 
 .browserupgrade {
     margin: 0.2em 0;
-    background: #ccc;
+    background: #aa;
     color: #000;
     padding: 0.2em 0;
 }
@@ -70,12 +71,12 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #3758ad;
+    border-bottom: 20px solid #000000;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #3758ad;
+    border-top: 20px solid #000000;
 }
 
 .header-container,
